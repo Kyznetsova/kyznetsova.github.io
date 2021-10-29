@@ -5,30 +5,22 @@ body {
 
 .main-container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    width: 1200px;
+    background: #FFF;
+    margin: 40px auto;
 }
-
-.about-me-profession {
-    font-size: 14px;
-    font-weight: 700;
-    color:#000;
-}
-
 .about-me-section {
-    background: rgb(238, 238, 189);
+}
+.my-projects-section {
+}
+.my-work-expirience-section {
+}
+.my-education-section {
+}
+
+.sidebar {
     display: flex;
     flex-direction: column;
+    background: #1E2939;
 }
-
-.my-projects-section {
-    background: rgb(189, 238, 223);
-}
-
-.my-work-expirience-section {
-    background: rgb(211, 176, 243);
-}
-
-.my-education-section {
-    background: rgb(235, 172, 172);
-}
-
