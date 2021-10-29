@@ -6,23 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
         <title>My resume</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css"
     </head>
     <body>
         <!--main container!!!-->
-        <div>
+        <div class="main-container">
             <!-- about me-->
-            <div>
-            <h2>Front-End Developer</h2>
+            <div class="about-me-section">
+            <h2 class="about-me-profession">Front-End Developer</h2>
             <h1>Anastasia Kuznetsova</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
             </div>
 
-            <!-- my project-->
-            <div>
+            <!-- my projects-->
+            <div class="my-projects-section">
                 <h3>Projects</h3>
                 <ol>
-                    <li>
+                    <li class="projects-item">
                         <a href="https://hellenglish.goit.global/">hellenglish.goit.global</a>
                         <span>......</span>
                         <span>[ HTML5, CSS3 ]</span
@@ -41,7 +44,7 @@
             </div>
 
             <!-- my work expirience-->
-            <div>
+            <div class="my-work-expirience-section">
              <h3>Work Experience</h3>
                 <!-- company2-->
                 <div>
@@ -71,18 +74,16 @@
              </div>
 
       <!-- Education-->
-         <div>
+         <div class="my-education-section">
                 <h3>Education</h3>
                 <h4>Kiev University of Market Relations</h4>
                 <p>Finance</p>
                 <p>September 2009 - June 2013</p>
 
          </div>
-        </div>
-
-        <!-- sidebar -->
-        <aside>
-            <img src="img/photo_.jpg" alt"My photo">
+         <!-- sidebar -->
+        <div class="sidebar">
+            <img width="370" src="img/photo_.jpg" alt"My photo">
             <!-- contacts-->
             <div>
                 <h3>Contacts</h3>
@@ -118,6 +119,9 @@
                 </ul>
             </div>
 
-        </aside>
+        </div>
+        </div>
+
+        
     </body>
 </html>
