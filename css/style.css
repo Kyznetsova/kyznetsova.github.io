@@ -5,7 +5,7 @@ body {
 
 .main-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     width: 1200px;
     background: #FFF;
     margin: 40px auto;
@@ -19,8 +19,18 @@ body {
 .my-education-section {
 }
 
+/* sidebar section */
 .sidebar {
-    display: flex;
-    flex-direction: column;
     background: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+.contacts{
+    margin: 50px 0 0 40px;
+}
+.tech{
+    margin: 50px 0 0 40px;
+}
+.soft{
+    margin: 50px 0 0 40px;
 }
