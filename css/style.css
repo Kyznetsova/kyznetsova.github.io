@@ -120,11 +120,12 @@ body {
     margin-right: 5px;
 }
 .contacts-section-link {
-    color: #565e6a;
+    color: #FFF;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    opacity: 0.5;
 }
 
 /* skills-list section */
