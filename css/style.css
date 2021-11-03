@@ -4,11 +4,12 @@ body {
 }
 
 .main-container {
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
     background: #FFF;
-    margin: 40px auto;
+    margin: 0px auto;
 }
 
 /* main section*/
@@ -96,6 +97,7 @@ body {
 .sidebar {
     background: #1E2939;
     width: 370px;
+    margin: 10px 0 0 0;
     padding: 40px 0;
 }
 .contacts{
